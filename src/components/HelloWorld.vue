@@ -100,6 +100,11 @@ export default {
   props: {
     msg: String,
   },
+  data() {
+    return {
+      hello: "123abc",
+    };
+  },
 };
 </script>
 

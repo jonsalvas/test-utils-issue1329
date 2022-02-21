@@ -1,6 +1,8 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Welcome to Your Vue.js App" />
+  <div v-for="value in 3" :key="value">
+    <HelloWorld ref="hello" msg="Welcome to Your Vue.js App" />
+  </div>
 </template>
 
 <script>
